@@ -11,6 +11,8 @@ This project implements:
 - **Data Persistence** using localStorage
 - **Material-UI Styling** for modern UI/UX
 
+**GitHub Repository:** [https://github.com/strivedi4u/Revest_Solutions_Project](https://github.com/strivedi4u/Revest_Solutions_Project)
+
 ## ✨ Features
 
 ### Backend Services
@@ -56,7 +58,7 @@ This project implements:
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/strivedi4u/Revest_Solutions_Project.git
 cd Revest_Solutions_Project
 ```
 
@@ -279,6 +281,46 @@ Revest_Solutions_Project/
 - 📊 **Data Visualization** - Tables and cards
 - ✨ **Professional Styling** - Material-UI theme
 
+---
+
+## 📸 Screenshots
+
+### 1. API Tester - PUT Request (Update Order)
+Shows the API Tester interface with a PUT request to update an order with new items. The response displays:
+- Status Code: 200 (Success)
+- Response Time: 32ms
+- Updated order object with modified items array
+- Demonstrates successful order update functionality
+
+![API Tester - PUT Request](./screenshots/order_put.png)
+
+### 2. API Tester - DELETE Request (Order Deletion)
+Demonstrates the DELETE endpoint for removing orders. Features shown:
+- HTTP Method: DELETE
+- Status Code: 200 (Success)
+- Response Time: 31ms
+- Success message: "Order deleted successfully"
+- Order ID in response confirms which order was deleted
+- Quick preset buttons visible for all Order Service operations
+
+![API Tester - DELETE Request](./screenshots/order_delete.png)
+
+### 3. API Tester - GET Request (Fetch Order by ID)
+Shows fetching a specific order by its UUID. Displays:
+- HTTP Method: GET
+- Status Code: 200 (Success)
+- Response Time: 24ms
+- Complete order details including:
+  - Order ID (UUID format)
+  - User ID
+  - Items array with product details
+  - Status (PENDING)
+- Tab navigation between PRODUCT SERVICE and ORDER SERVICE presets
+
+![API Tester - GET Order by ID](./screenshots/order_getById.png)
+
+---
+
 ## 🧪 Testing Scenarios
 
 ### Product Management
@@ -396,8 +438,9 @@ This project is part of a technical assignment and is available for educational 
 ## 👥 Support
 
 For issues or questions, please refer to the troubleshooting section or check the API documentation at:
-- Product Service Swagger: `http://localhost:3001/swagger`
-- Order Service Swagger: `http://localhost:3002/swagger`
+- **GitHub Repository:** [https://github.com/strivedi4u/Revest_Solutions_Project](https://github.com/strivedi4u/Revest_Solutions_Project)
+- **Product Service Swagger:** `http://localhost:3001/swagger`
+- **Order Service Swagger:** `http://localhost:3002/swagger`
 
 ---
 
@@ -960,6 +1003,7 @@ This project demonstrates:
 **Last Updated**: November 15, 2025 10:45 AM
 **Status**: ✅ Complete and Production Ready
 **Version**: 1.0.0
+**GitHub:** [https://github.com/strivedi4u/Revest_Solutions_Project](https://github.com/strivedi4u/Revest_Solutions_Project)
 
 ---
 
