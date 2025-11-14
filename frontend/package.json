@@ -1,0 +1,26 @@
+{
+  "name": "next-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.11",
+    "@mui/material": "^5.14.11",
+    "next": "^14.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.48.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "^14.0.3"
+  }
+}

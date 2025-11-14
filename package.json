@@ -1,0 +1,26 @@
+{
+  "name": "microservices-app",
+  "version": "1.0.0",
+  "description": "Microservices application with dynamic forms",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd apps/product-service && npm install && cd ../.. && cd apps/order-service && npm install && cd ../../.. && cd frontend && npm install",
+    "start:product": "cd backend/apps/product-service && npm start",
+    "start:order": "cd backend/apps/order-service && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "dev:product": "cd backend/apps/product-service && npm run start:dev",
+    "dev:order": "cd backend/apps/order-service && npm run start:dev",
+    "build:product": "cd backend/apps/product-service && npm run build",
+    "build:order": "cd backend/apps/order-service && npm run build",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "microservices",
+    "nestjs",
+    "nextjs",
+    "react",
+    "dynamic-forms"
+  ],
+  "author": "",
+  "license": "UNLICENSED"
+}
